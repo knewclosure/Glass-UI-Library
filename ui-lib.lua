@@ -1056,4 +1056,6 @@ function Library:CreateLabel(text)
 		Parent = self.ScrollContent or self.Container
 	})
 	CreateElement("UIPadding", { PaddingLeft = UDim.new(0, 10), Parent = label })
+
 end
+return Library
